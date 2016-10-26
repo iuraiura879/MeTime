@@ -1,0 +1,1206 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04994BB5AFDDF8EC24C4245273251F7C /* Pods-MeTime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE20BB19B15C4EC3111640D3E1A5B0F /* Pods-MeTime-dummy.m */; };
+		0BCC8DA478F6C524D2C323496A2890EA /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 755D24DFD3D2F7D1D5CA3DB526F60E88 /* Info.plist */; };
+		0BF89B01E9A3CEE86532DC09D9616B3A /* SwiftCarouselError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E869E1DB30EFCB28210BAE5AEEC74428 /* SwiftCarouselError.swift */; };
+		1377632CB9961D7A29685B9C023D233C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		15D781F37AE8E9AB1813ECEE4A1DA725 /* TLYShyNavBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAF540A4E2D06FAC967865139B350A0 /* TLYShyNavBarManager.m */; };
+		18FF869CC54432FE835D4D08CBE4BDAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		1F867C3A1854A49A87B7E735D11AD17C /* SwiftCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A8C182C647749E17D841DBB075154 /* SwiftCarousel.swift */; };
+		1FF01F1A5A0F076B3CB7E9B68C636E4C /* TLYShyChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 18AD040FEF601F8B609A5D7FE428E92D /* TLYShyChild.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26F795B2528E563EA39A453F34160084 /* NSObject+TLYSwizzlingHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423FA1C9C6EC249E7762EF311AAD7A3 /* NSObject+TLYSwizzlingHelpers.m */; };
+		3506D8DF7327D57E789F9977AFA5FC4F /* UIViewController+BetterLayoutGuides.h in Headers */ = {isa = PBXBuildFile; fileRef = F3290BB7BD40EE1A25237B6567C42D79 /* UIViewController+BetterLayoutGuides.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CE9DD11A770FCABC849761F374F176E /* TLYShyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0B8B2FE7DFE6E903AA44A11A9C4CE /* TLYShyViewController.m */; };
+		445C8E2C1327B534C4BBB5ED9812DFF5 /* TLYShyNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E92388559C5DF917D59CEB270C230541 /* TLYShyNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5486388F889DB182C76C4B92C484EDE0 /* Pods-MeTimeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE7CC45464E73A624050F5B66F392A /* Pods-MeTimeUITests-dummy.m */; };
+		55F6A841EF182485F04E038F315A420F /* NSObject+TLYSwizzlingHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E154767CC0858B805ED66BE65C956FA /* NSObject+TLYSwizzlingHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56ED5C9F5926F62F7035B5C9E5AB646C /* Pods-MeTimeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFD23F8A15258F2F4650AFB13CAD41A /* Pods-MeTimeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59A203DF37B4EAF6ECE3CCAD7A720126 /* Pods-MeTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1D6B6725DF6AC4F544DFB5FC20C92E /* Pods-MeTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6398297198F9AF1F6B619DE463E3435D /* TLYShyParent.h in Headers */ = {isa = PBXBuildFile; fileRef = F09A6DCFA38AA3E66A32281384D47A7E /* TLYShyParent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66161480A37789E8EC33FDD94E6CF971 /* TLYShyStatusBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D566CD0AB4CFDE91659F71389F5D03 /* TLYShyStatusBarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		724279423E7BE2380B820799AF682308 /* TLYShyScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FEAC637BE30B58D33E9D0E5A2650A3 /* TLYShyScrollViewController.m */; };
+		74317CE5A6DACD04C528CC9B872C4522 /* SwiftCarouselDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5EAC0BBFCF0EF7ED468772147CFD1 /* SwiftCarouselDelegate.swift */; };
+		88B26441CCE0E35A137C809B3796957E /* TLYShyNavBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B4C5F0A2FAA1B20A0263AFDB1B64C5 /* TLYShyNavBarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		953A8B429FC12D0EDB0378174A21C186 /* UIViewController+BetterLayoutGuides.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9C038FE9D13A2BE1C20470616E29A /* UIViewController+BetterLayoutGuides.m */; };
+		9904179304AD6BC306950616D663385A /* TLYDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE513C6AE3877B9602986CFDA08E5F /* TLYDelegateProxy.m */; };
+		9F9DE09128FFAE041DBD755382438CFB /* Pods-MeTimeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B0FBDB59DE1B79115C76AE96EC9FD1 /* Pods-MeTimeTests-dummy.m */; };
+		A01F5707DD7141DEB822E81470A77BEF /* Pods-MeTimeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AD51AA644B617606B6A4546A4B4222 /* Pods-MeTimeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B87E13B4C38A96D3F668724BE49FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		A42C86C8F71B37B3A9F267A60D3CC980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		AAA53EC7A7C389B9A9ED3D1E48226F00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		ABDA9370869FF60B2FD087B71EBF540B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		AC0665C0128680DCE4773EF1B0D7F585 /* UIScrollView+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6B6CF6B77560A34C3B3FDD72E5F148 /* UIScrollView+Helpers.m */; };
+		AEFDADEFF0D49106D633B1FA6669144E /* SwiftCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB21B1CD9FA32B2FF8D45C2157B3F1D5 /* SwiftCarousel-dummy.m */; };
+		B3A13C9CE93D3A1C1CCD30D05E8E4660 /* SwiftCarousel+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC3AFE63F4F95333FAB12D59FF773D /* SwiftCarousel+UIGestureRecognizerDelegate.swift */; };
+		B3CCA89073A73193389F699EC6B95B16 /* TLYShyNavBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA277B11886C1282917E774876858498 /* TLYShyNavBar-dummy.m */; };
+		B406237B22B6B7CDB797D8BE2C3D1705 /* TLYShyStatusBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B909F2031652D8968BD08FF0E9491E0 /* TLYShyStatusBarController.m */; };
+		B72E87FBFB793E8CB883873B77C38F77 /* TLYShyNavBarFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 32842162E27D308125A477916D4F2CF7 /* TLYShyNavBarFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD380188BB8BBAED9839BDBE3C9634A0 /* SwiftCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE5130703013953DC4866EBEDB95335 /* SwiftCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF37ACE06C286E1BE03687462B54821E /* TLYShyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA578D5E6AC7B97C3DD5A725FB2B846 /* TLYShyViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C46113546BB1B935BEA575D4DA1154AB /* UIScrollView+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 935E78E2B48EF142D872626B66295863 /* UIScrollView+Helpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1708000B4D25D675A8272E1F39CFFE3 /* SwiftCarouselResizeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9D4E79A8F1715E744BC78B4F453E40 /* SwiftCarouselResizeType.swift */; };
+		D2E4BC52B35BEC868D45C6297316C955 /* TLYShyNavBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 886C52BEA76579A8E003066DEABC90C7 /* TLYShyNavBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE0566129D9FFD19C0A623EC0694074A /* SwiftCarouselScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6183C4D60CEBF770D017D5ACB28D3F1 /* SwiftCarouselScroll.swift */; };
+		EB275161FCDE1F5724591C7CB75FD921 /* TLYDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB2A0B9871A2AF2B174B36786908DE9 /* TLYDelegateProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDE4ABEA75217E4832B024FA4E725668 /* TLYShyScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A03B7E2B794002F30A7076DA12855F19 /* TLYShyScrollViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3AF198492E7CDA01B33BEE83AAD70FF /* UIView+SwiftCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02479DB94942C7598E23023619F05859 /* UIView+SwiftCarousel.swift */; };
+		FA9ADD4598DE83E7C6649B3F087F659A /* SwiftCarousel+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE803F9620B302050F79BF3176B75803 /* SwiftCarousel+UIScrollViewDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F1DA17964144F3296703046BB589C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E7C3A7972CC736DA98143A02A98026;
+			remoteInfo = TLYShyNavBar;
+		};
+		ACE52462B2DCCA3E6C12547BB5A519A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1A28763E5B50C1C99D4DADD67FF93B;
+			remoteInfo = SwiftCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F6526D6C86290BF2AE4CAB100641E9 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		02479DB94942C7598E23023619F05859 /* UIView+SwiftCarousel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SwiftCarousel.swift"; path = "Source/UIView+SwiftCarousel.swift"; sourceTree = "<group>"; };
+		038C433B3329D21752FF75E8E75E85A1 /* TLYShyNavBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TLYShyNavBar.modulemap; sourceTree = "<group>"; };
+		06716220329840F8CA832878015B78D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C23B45BF89692CFD909296C5EFE1E1C /* Pods_MeTimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeTimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDE513C6AE3877B9602986CFDA08E5F /* TLYDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLYDelegateProxy.m; path = TLYShyNavBar/Categories/TLYDelegateProxy.m; sourceTree = "<group>"; };
+		0E154767CC0858B805ED66BE65C956FA /* NSObject+TLYSwizzlingHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TLYSwizzlingHelpers.h"; path = "TLYShyNavBar/Categories/NSObject+TLYSwizzlingHelpers.h"; sourceTree = "<group>"; };
+		1372D6E98315E3EFDF00D0E04D37D8A5 /* TLYShyNavBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLYShyNavBar.xcconfig; sourceTree = "<group>"; };
+		18AD040FEF601F8B609A5D7FE428E92D /* TLYShyChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLYShyChild.h; path = TLYShyNavBar/ShyControllers/TLYShyChild.h; sourceTree = "<group>"; };
+		19A46865A27362CDED2C7D1FA3132626 /* Pods-MeTimeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeTimeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		20C23EEE8EFC7FCC883BA87C99E0E398 /* Pods-MeTime-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeTime-resources.sh"; sourceTree = "<group>"; };
+		263A5F61A6ED4086219850EA06AED541 /* Pods_MeTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAF540A4E2D06FAC967865139B350A0 /* TLYShyNavBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLYShyNavBarManager.m; path = TLYShyNavBar/TLYShyNavBarManager.m; sourceTree = "<group>"; };
+		2ED84FB54FF4E94EED415CCB72639F76 /* SwiftCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftCarousel.modulemap; sourceTree = "<group>"; };
+		32842162E27D308125A477916D4F2CF7 /* TLYShyNavBarFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLYShyNavBarFade.h; path = TLYShyNavBar/TLYShyNavBarFade.h; sourceTree = "<group>"; };
+		32DB46BBB08C3EAC44A667BB32856BA3 /* Pods-MeTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3540E5762CE8035F7798157DE6E775E7 /* Pods-MeTimeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeTimeTests-frameworks.sh"; sourceTree = "<group>"; };
+		3D7DD8E3CAF5A9E5CFC4797DAD8F8496 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		3FA5EAC0BBFCF0EF7ED468772147CFD1 /* SwiftCarouselDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCarouselDelegate.swift; path = Source/SwiftCarouselDelegate.swift; sourceTree = "<group>"; };
+		47B4C5F0A2FAA1B20A0263AFDB1B64C5 /* TLYShyNavBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLYShyNavBarManager.h; path = TLYShyNavBar/TLYShyNavBarManager.h; sourceTree = "<group>"; };
+		4943CB2AB84E07B212723D15687DD61D /* Pods-MeTime-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeTime-acknowledgements.plist"; sourceTree = "<group>"; };
+		4AD0B8B2FE7DFE6E903AA44A11A9C4CE /* TLYShyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLYShyViewController.m; path = TLYShyNavBar/ShyControllers/TLYShyViewController.m; sourceTree = "<group>"; };
+		541D75FDC5E673923E070F6000CC86CB /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		5B6B6CF6B77560A34C3B3FDD72E5F148 /* UIScrollView+Helpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+Helpers.m"; path = "TLYShyNavBar/Categories/UIScrollView+Helpers.m"; sourceTree = "<group>"; };
+		5E1D6B6725DF6AC4F544DFB5FC20C92E /* Pods-MeTime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeTime-umbrella.h"; sourceTree = "<group>"; };
+		614A4CC06CF3A119DF9E794669200180 /* Pods-MeTime-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeTime-frameworks.sh"; sourceTree = "<group>"; };
+		61FEAC637BE30B58D33E9D0E5A2650A3 /* TLYShyScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLYShyScrollViewController.m; path = TLYShyNavBar/ShyControllers/TLYShyScrollViewController.m; sourceTree = "<group>"; };
+		63E5D4ECB83066E6BCEDD76DA10004B4 /* Pods_MeTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		650875E285C3BF3173E859B934770721 /* Pods-MeTimeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MeTimeUITests.modulemap"; sourceTree = "<group>"; };
+		697AB066B6C99F269640B9A2021004E9 /* Pods-MeTimeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeTimeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69F4046358CB888ECCD8D09E8ECBD707 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		6B8364E3EC1897101E721EFC65E1249C /* Pods-MeTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeTime.release.xcconfig"; sourceTree = "<group>"; };
+		6B909F2031652D8968BD08FF0E9491E0 /* TLYShyStatusBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLYShyStatusBarController.m; path = TLYShyNavBar/ShyControllers/TLYShyStatusBarController.m; sourceTree = "<group>"; };
+		6BB2A0B9871A2AF2B174B36786908DE9 /* TLYDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLYDelegateProxy.h; path = TLYShyNavBar/Categories/TLYDelegateProxy.h; sourceTree = "<group>"; };
+		6C3841C834C01A482BA73358E40A4EC8 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		73E4875557DF6C9F0D8650E2B56F9017 /* Pods-MeTime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MeTime.modulemap"; sourceTree = "<group>"; };
+		7450E7543DFD749F5847F5A881B98118 /* Pods-MeTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeTime.debug.xcconfig"; sourceTree = "<group>"; };
+		755D24DFD3D2F7D1D5CA3DB526F60E88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = TLYShyNavBar/Info.plist; sourceTree = "<group>"; };
+		7A89F3883D3830A8FD952DC1B4F3C96F /* TLYShyNavBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLYShyNavBar-prefix.pch"; sourceTree = "<group>"; };
+		7F9D4E79A8F1715E744BC78B4F453E40 /* SwiftCarouselResizeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCarouselResizeType.swift; path = Source/SwiftCarouselResizeType.swift; sourceTree = "<group>"; };
+		8423FA1C9C6EC249E7762EF311AAD7A3 /* NSObject+TLYSwizzlingHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TLYSwizzlingHelpers.m"; path = "TLYShyNavBar/Categories/NSObject+TLYSwizzlingHelpers.m"; sourceTree = "<group>"; };
+		84AD51AA644B617606B6A4546A4B4222 /* Pods-MeTimeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeTimeTests-umbrella.h"; sourceTree = "<group>"; };
+		87A930F2FFEBBD2A7A08B6FCA25BC323 /* Pods-MeTimeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeTimeTests-resources.sh"; sourceTree = "<group>"; };
+		886C52BEA76579A8E003066DEABC90C7 /* TLYShyNavBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLYShyNavBar-umbrella.h"; sourceTree = "<group>"; };
+		898E524E84293CCC91AB4B13AECF816E /* Pods-MeTimeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeTimeUITests-resources.sh"; sourceTree = "<group>"; };
+		8C61D140BA379518FFF75EE5312876E2 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		8EEF54E5C2936E2943FED035350C44BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935E78E2B48EF142D872626B66295863 /* UIScrollView+Helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+Helpers.h"; path = "TLYShyNavBar/Categories/UIScrollView+Helpers.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948BB54C0CFF02FC2F71162313925E36 /* Pods-MeTimeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeTimeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B260E403728B8A27CDFE48A1DDBEC8B /* SwiftCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCarousel.xcconfig; sourceTree = "<group>"; };
+		9CFD23F8A15258F2F4650AFB13CAD41A /* Pods-MeTimeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeTimeUITests-umbrella.h"; sourceTree = "<group>"; };
+		A03B7E2B794002F30A7076DA12855F19 /* TLYShyScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLYShyScrollViewController.h; path = TLYShyNavBar/ShyControllers/TLYShyScrollViewController.h; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A692ACA633B0AD51202E852F2F3609FC /* Pods-MeTime-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeTime-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9F786A3F53FC4AD1F01CD144E81C2E0 /* Pods-MeTimeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeTimeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB21B1CD9FA32B2FF8D45C2157B3F1D5 /* SwiftCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCarousel-dummy.m"; sourceTree = "<group>"; };
+		B2B0FBDB59DE1B79115C76AE96EC9FD1 /* Pods-MeTimeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeTimeTests-dummy.m"; sourceTree = "<group>"; };
+		B2B9FC1358E05621CF5E8F42DCF0179D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA167063E7820AFACB6E703984A61D28 /* Pods-MeTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA277B11886C1282917E774876858498 /* TLYShyNavBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLYShyNavBar-dummy.m"; sourceTree = "<group>"; };
+		BE21B0B93827DF3ABA3917743F3216C2 /* Pods-MeTimeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeTimeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFF39346467DB8A7E5F55A6DDB8F34DA /* Pods-MeTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6B0F203BDE2F0F1F1F310CA09860750 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D566CD0AB4CFDE91659F71389F5D03 /* TLYShyStatusBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLYShyStatusBarController.h; path = TLYShyNavBar/ShyControllers/TLYShyStatusBarController.h; sourceTree = "<group>"; };
+		CEC9C038FE9D13A2BE1C20470616E29A /* UIViewController+BetterLayoutGuides.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BetterLayoutGuides.m"; path = "TLYShyNavBar/Categories/UIViewController+BetterLayoutGuides.m"; sourceTree = "<group>"; };
+		D0E763E4189E14587328DCA9A5F7C8CE /* Pods-MeTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6041BCE79E7FEC189D566A88C81861D /* SwiftCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6183C4D60CEBF770D017D5ACB28D3F1 /* SwiftCarouselScroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCarouselScroll.swift; path = Source/SwiftCarouselScroll.swift; sourceTree = "<group>"; };
+		DAA578D5E6AC7B97C3DD5A725FB2B846 /* TLYShyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLYShyViewController.h; path = TLYShyNavBar/ShyControllers/TLYShyViewController.h; sourceTree = "<group>"; };
+		DBFDB568E8D6D1D3B9F5C945BCF0853F /* SwiftCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCarousel-prefix.pch"; sourceTree = "<group>"; };
+		DC7F7E38F638966BB0742C7877BAA034 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE20BB19B15C4EC3111640D3E1A5B0F /* Pods-MeTime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeTime-dummy.m"; sourceTree = "<group>"; };
+		DE803F9620B302050F79BF3176B75803 /* SwiftCarousel+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftCarousel+UIScrollViewDelegate.swift"; path = "Source/SwiftCarousel+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		E13A8C182C647749E17D841DBB075154 /* SwiftCarousel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCarousel.swift; path = Source/SwiftCarousel.swift; sourceTree = "<group>"; };
+		E5AC3AFE63F4F95333FAB12D59FF773D /* SwiftCarousel+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftCarousel+UIGestureRecognizerDelegate.swift"; path = "Source/SwiftCarousel+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		E7A14C8B158F76A428A6DB2F329BEA0B /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E869E1DB30EFCB28210BAE5AEEC74428 /* SwiftCarouselError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCarouselError.swift; path = Source/SwiftCarouselError.swift; sourceTree = "<group>"; };
+		E92388559C5DF917D59CEB270C230541 /* TLYShyNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLYShyNavBar.h; path = TLYShyNavBar/TLYShyNavBar.h; sourceTree = "<group>"; };
+		EA80F29618534C025D1E27E5C07DB2B7 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		EC6E9100061F5DE39DE58E4AB351453B /* TLYShyNavBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLYShyNavBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09A6DCFA38AA3E66A32281384D47A7E /* TLYShyParent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLYShyParent.h; path = TLYShyNavBar/ShyControllers/TLYShyParent.h; sourceTree = "<group>"; };
+		F3290BB7BD40EE1A25237B6567C42D79 /* UIViewController+BetterLayoutGuides.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BetterLayoutGuides.h"; path = "TLYShyNavBar/Categories/UIViewController+BetterLayoutGuides.h"; sourceTree = "<group>"; };
+		F9900431F62F5D277B89F3B67D44F714 /* Pods-MeTimeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MeTimeTests.modulemap"; sourceTree = "<group>"; };
+		FCAE7CC45464E73A624050F5B66F392A /* Pods-MeTimeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeTimeUITests-dummy.m"; sourceTree = "<group>"; };
+		FFE5130703013953DC4866EBEDB95335 /* SwiftCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCarousel-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		459590E5D9B659F3C20C78CB5135B52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1377632CB9961D7A29685B9C023D233C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632710A7736087AEE0AB26F2B4072B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FF869CC54432FE835D4D08CBE4BDAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645C32354FDE28982598A04CA37B77F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA9370869FF60B2FD087B71EBF540B /* Foundation.framework in Frameworks */,
+				AAA53EC7A7C389B9A9ED3D1E48226F00 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D47B76337D76255136633EB950DDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B87E13B4C38A96D3F668724BE49FD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AFC8706B2D5B644C9FFC04C70D5C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42C86C8F71B37B3A9F267A60D3CC980 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015A0FEE2D2BB44F34B356A6D1C94313 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				87BBF066A8F8FF4CAB71F7DA717B02A3 /* Frameworks */,
+				749647B02ED38FBE4FFFD3526A6522C0 /* Resources */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		05C5A8EF02FE5B8802C043BA8ABD189C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				885A53C3E734AC6099B4247A14CE767E /* Pods-MeTime */,
+				5785050DA7465513124CFC5BFF82D5EC /* Pods-MeTimeTests */,
+				17C4339FF1C59576840F689DB053C789 /* Pods-MeTimeUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		083B5772581DD8164ADBE799CFF1DE77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D7DD8E3CAF5A9E5CFC4797DAD8F8496 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		159511B319AF8CB12BA19E524144C101 /* TLYShyNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				755D24DFD3D2F7D1D5CA3DB526F60E88 /* Info.plist */,
+				0E154767CC0858B805ED66BE65C956FA /* NSObject+TLYSwizzlingHelpers.h */,
+				8423FA1C9C6EC249E7762EF311AAD7A3 /* NSObject+TLYSwizzlingHelpers.m */,
+				6BB2A0B9871A2AF2B174B36786908DE9 /* TLYDelegateProxy.h */,
+				0CDE513C6AE3877B9602986CFDA08E5F /* TLYDelegateProxy.m */,
+				18AD040FEF601F8B609A5D7FE428E92D /* TLYShyChild.h */,
+				E92388559C5DF917D59CEB270C230541 /* TLYShyNavBar.h */,
+				32842162E27D308125A477916D4F2CF7 /* TLYShyNavBarFade.h */,
+				47B4C5F0A2FAA1B20A0263AFDB1B64C5 /* TLYShyNavBarManager.h */,
+				2CAF540A4E2D06FAC967865139B350A0 /* TLYShyNavBarManager.m */,
+				F09A6DCFA38AA3E66A32281384D47A7E /* TLYShyParent.h */,
+				A03B7E2B794002F30A7076DA12855F19 /* TLYShyScrollViewController.h */,
+				61FEAC637BE30B58D33E9D0E5A2650A3 /* TLYShyScrollViewController.m */,
+				C7D566CD0AB4CFDE91659F71389F5D03 /* TLYShyStatusBarController.h */,
+				6B909F2031652D8968BD08FF0E9491E0 /* TLYShyStatusBarController.m */,
+				DAA578D5E6AC7B97C3DD5A725FB2B846 /* TLYShyViewController.h */,
+				4AD0B8B2FE7DFE6E903AA44A11A9C4CE /* TLYShyViewController.m */,
+				935E78E2B48EF142D872626B66295863 /* UIScrollView+Helpers.h */,
+				5B6B6CF6B77560A34C3B3FDD72E5F148 /* UIScrollView+Helpers.m */,
+				F3290BB7BD40EE1A25237B6567C42D79 /* UIViewController+BetterLayoutGuides.h */,
+				CEC9C038FE9D13A2BE1C20470616E29A /* UIViewController+BetterLayoutGuides.m */,
+				A80CC99460787B210E5410A77F0E7714 /* Support Files */,
+			);
+			path = TLYShyNavBar;
+			sourceTree = "<group>";
+		};
+		17C4339FF1C59576840F689DB053C789 /* Pods-MeTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B0F203BDE2F0F1F1F310CA09860750 /* Info.plist */,
+				650875E285C3BF3173E859B934770721 /* Pods-MeTimeUITests.modulemap */,
+				697AB066B6C99F269640B9A2021004E9 /* Pods-MeTimeUITests-acknowledgements.markdown */,
+				A9F786A3F53FC4AD1F01CD144E81C2E0 /* Pods-MeTimeUITests-acknowledgements.plist */,
+				FCAE7CC45464E73A624050F5B66F392A /* Pods-MeTimeUITests-dummy.m */,
+				19A46865A27362CDED2C7D1FA3132626 /* Pods-MeTimeUITests-frameworks.sh */,
+				898E524E84293CCC91AB4B13AECF816E /* Pods-MeTimeUITests-resources.sh */,
+				9CFD23F8A15258F2F4650AFB13CAD41A /* Pods-MeTimeUITests-umbrella.h */,
+				BA167063E7820AFACB6E703984A61D28 /* Pods-MeTimeUITests.debug.xcconfig */,
+				32DB46BBB08C3EAC44A667BB32856BA3 /* Pods-MeTimeUITests.release.xcconfig */,
+			);
+			name = "Pods-MeTimeUITests";
+			path = "Target Support Files/Pods-MeTimeUITests";
+			sourceTree = "<group>";
+		};
+		42054CD99A287B4E342DE9E34A30537F /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6BC27B30CEBB0C4AD3A4EAD6CB34B41D /* Frameworks */,
+				E11D624D120B643063961E5E2FAF560D /* Resources */,
+			);
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5785050DA7465513124CFC5BFF82D5EC /* Pods-MeTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				06716220329840F8CA832878015B78D1 /* Info.plist */,
+				F9900431F62F5D277B89F3B67D44F714 /* Pods-MeTimeTests.modulemap */,
+				BE21B0B93827DF3ABA3917743F3216C2 /* Pods-MeTimeTests-acknowledgements.markdown */,
+				948BB54C0CFF02FC2F71162313925E36 /* Pods-MeTimeTests-acknowledgements.plist */,
+				B2B0FBDB59DE1B79115C76AE96EC9FD1 /* Pods-MeTimeTests-dummy.m */,
+				3540E5762CE8035F7798157DE6E775E7 /* Pods-MeTimeTests-frameworks.sh */,
+				87A930F2FFEBBD2A7A08B6FCA25BC323 /* Pods-MeTimeTests-resources.sh */,
+				84AD51AA644B617606B6A4546A4B4222 /* Pods-MeTimeTests-umbrella.h */,
+				D0E763E4189E14587328DCA9A5F7C8CE /* Pods-MeTimeTests.debug.xcconfig */,
+				BFF39346467DB8A7E5F55A6DDB8F34DA /* Pods-MeTimeTests.release.xcconfig */,
+			);
+			name = "Pods-MeTimeTests";
+			path = "Target Support Files/Pods-MeTimeTests";
+			sourceTree = "<group>";
+		};
+		68C4810DF0F9A9381BC11A55C6315F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69F4046358CB888ECCD8D09E8ECBD707 /* GoogleMaps.framework */,
+				01F6526D6C86290BF2AE4CAB100641E9 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BC27B30CEBB0C4AD3A4EAD6CB34B41D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7A14C8B158F76A428A6DB2F329BEA0B /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		749647B02ED38FBE4FFFD3526A6522C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA80F29618534C025D1E27E5C07DB2B7 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				F39FA765D151E88BA3040C2137FCEE16 /* Pods */,
+				8C09B3F86F79075AEA321FC220DB5205 /* Products */,
+				05C5A8EF02FE5B8802C043BA8ABD189C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EF79D643655F80B228F22D3CAC66C70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC7F7E38F638966BB0742C7877BAA034 /* Info.plist */,
+				2ED84FB54FF4E94EED415CCB72639F76 /* SwiftCarousel.modulemap */,
+				9B260E403728B8A27CDFE48A1DDBEC8B /* SwiftCarousel.xcconfig */,
+				AB21B1CD9FA32B2FF8D45C2157B3F1D5 /* SwiftCarousel-dummy.m */,
+				DBFDB568E8D6D1D3B9F5C945BCF0853F /* SwiftCarousel-prefix.pch */,
+				FFE5130703013953DC4866EBEDB95335 /* SwiftCarousel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftCarousel";
+			sourceTree = "<group>";
+		};
+		808FB50843F7B71AA0467E249835480F /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				68C4810DF0F9A9381BC11A55C6315F13 /* Frameworks */,
+				BE93655F1CF4BA36A02CCB4BACE8C8A5 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		87BBF066A8F8FF4CAB71F7DA717B02A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				541D75FDC5E673923E070F6000CC86CB /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		885A53C3E734AC6099B4247A14CE767E /* Pods-MeTime */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF54E5C2936E2943FED035350C44BA /* Info.plist */,
+				73E4875557DF6C9F0D8650E2B56F9017 /* Pods-MeTime.modulemap */,
+				A692ACA633B0AD51202E852F2F3609FC /* Pods-MeTime-acknowledgements.markdown */,
+				4943CB2AB84E07B212723D15687DD61D /* Pods-MeTime-acknowledgements.plist */,
+				DDE20BB19B15C4EC3111640D3E1A5B0F /* Pods-MeTime-dummy.m */,
+				614A4CC06CF3A119DF9E794669200180 /* Pods-MeTime-frameworks.sh */,
+				20C23EEE8EFC7FCC883BA87C99E0E398 /* Pods-MeTime-resources.sh */,
+				5E1D6B6725DF6AC4F544DFB5FC20C92E /* Pods-MeTime-umbrella.h */,
+				7450E7543DFD749F5847F5A881B98118 /* Pods-MeTime.debug.xcconfig */,
+				6B8364E3EC1897101E721EFC65E1249C /* Pods-MeTime.release.xcconfig */,
+			);
+			name = "Pods-MeTime";
+			path = "Target Support Files/Pods-MeTime";
+			sourceTree = "<group>";
+		};
+		8C09B3F86F79075AEA321FC220DB5205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				263A5F61A6ED4086219850EA06AED541 /* Pods_MeTime.framework */,
+				63E5D4ECB83066E6BCEDD76DA10004B4 /* Pods_MeTimeTests.framework */,
+				0C23B45BF89692CFD909296C5EFE1E1C /* Pods_MeTimeUITests.framework */,
+				D6041BCE79E7FEC189D566A88C81861D /* SwiftCarousel.framework */,
+				EC6E9100061F5DE39DE58E4AB351453B /* TLYShyNavBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80CC99460787B210E5410A77F0E7714 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2B9FC1358E05621CF5E8F42DCF0179D /* Info.plist */,
+				038C433B3329D21752FF75E8E75E85A1 /* TLYShyNavBar.modulemap */,
+				1372D6E98315E3EFDF00D0E04D37D8A5 /* TLYShyNavBar.xcconfig */,
+				BA277B11886C1282917E774876858498 /* TLYShyNavBar-dummy.m */,
+				7A89F3883D3830A8FD952DC1B4F3C96F /* TLYShyNavBar-prefix.pch */,
+				886C52BEA76579A8E003066DEABC90C7 /* TLYShyNavBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TLYShyNavBar";
+			sourceTree = "<group>";
+		};
+		BE93655F1CF4BA36A02CCB4BACE8C8A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C3841C834C01A482BA73358E40A4EC8 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E11D624D120B643063961E5E2FAF560D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C61D140BA379518FFF75EE5312876E2 /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F39FA765D151E88BA3040C2137FCEE16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF44FE70DEEC6F8981E65CFAC3ECE93A /* GoogleMaps */,
+				42054CD99A287B4E342DE9E34A30537F /* GooglePlacePicker */,
+				015A0FEE2D2BB44F34B356A6D1C94313 /* GooglePlaces */,
+				FBF45716CA2366A88BF9637CE1470CAA /* SwiftCarousel */,
+				159511B319AF8CB12BA19E524144C101 /* TLYShyNavBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBF45716CA2366A88BF9637CE1470CAA /* SwiftCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				E13A8C182C647749E17D841DBB075154 /* SwiftCarousel.swift */,
+				E5AC3AFE63F4F95333FAB12D59FF773D /* SwiftCarousel+UIGestureRecognizerDelegate.swift */,
+				DE803F9620B302050F79BF3176B75803 /* SwiftCarousel+UIScrollViewDelegate.swift */,
+				3FA5EAC0BBFCF0EF7ED468772147CFD1 /* SwiftCarouselDelegate.swift */,
+				E869E1DB30EFCB28210BAE5AEEC74428 /* SwiftCarouselError.swift */,
+				7F9D4E79A8F1715E744BC78B4F453E40 /* SwiftCarouselResizeType.swift */,
+				D6183C4D60CEBF770D017D5ACB28D3F1 /* SwiftCarouselScroll.swift */,
+				02479DB94942C7598E23023619F05859 /* UIView+SwiftCarousel.swift */,
+				7EF79D643655F80B228F22D3CAC66C70 /* Support Files */,
+			);
+			path = SwiftCarousel;
+			sourceTree = "<group>";
+		};
+		FEF5B380359FC4AC6A1B23F540F7CF11 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				083B5772581DD8164ADBE799CFF1DE77 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		FF44FE70DEEC6F8981E65CFAC3ECE93A /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				FEF5B380359FC4AC6A1B23F540F7CF11 /* Base */,
+				808FB50843F7B71AA0467E249835480F /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F8EB514A92BAEE492EDCFEFA7CEFC20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01F5707DD7141DEB822E81470A77BEF /* Pods-MeTimeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E8C0C8FC69EB9E9F5AFEE6357D60E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD380188BB8BBAED9839BDBE3C9634A0 /* SwiftCarousel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D05C3ACABC6E39BE7ECD62BAA1C98F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A203DF37B4EAF6ECE3CCAD7A720126 /* Pods-MeTime-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E878352D0172B8B82E0EBBEDB3340ACE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED5C9F5926F62F7035B5C9E5AB646C /* Pods-MeTimeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B1FF48CD7B27579A0E86ABC6A24798 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F6A841EF182485F04E038F315A420F /* NSObject+TLYSwizzlingHelpers.h in Headers */,
+				EB275161FCDE1F5724591C7CB75FD921 /* TLYDelegateProxy.h in Headers */,
+				1FF01F1A5A0F076B3CB7E9B68C636E4C /* TLYShyChild.h in Headers */,
+				D2E4BC52B35BEC868D45C6297316C955 /* TLYShyNavBar-umbrella.h in Headers */,
+				445C8E2C1327B534C4BBB5ED9812DFF5 /* TLYShyNavBar.h in Headers */,
+				B72E87FBFB793E8CB883873B77C38F77 /* TLYShyNavBarFade.h in Headers */,
+				88B26441CCE0E35A137C809B3796957E /* TLYShyNavBarManager.h in Headers */,
+				6398297198F9AF1F6B619DE463E3435D /* TLYShyParent.h in Headers */,
+				EDE4ABEA75217E4832B024FA4E725668 /* TLYShyScrollViewController.h in Headers */,
+				66161480A37789E8EC33FDD94E6CF971 /* TLYShyStatusBarController.h in Headers */,
+				BF37ACE06C286E1BE03687462B54821E /* TLYShyViewController.h in Headers */,
+				C46113546BB1B935BEA575D4DA1154AB /* UIScrollView+Helpers.h in Headers */,
+				3506D8DF7327D57E789F9977AFA5FC4F /* UIViewController+BetterLayoutGuides.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04E7C3A7972CC736DA98143A02A98026 /* TLYShyNavBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A81402965ADD0E1C3878182F5ED6066 /* Build configuration list for PBXNativeTarget "TLYShyNavBar" */;
+			buildPhases = (
+				3C6EFFB25E443D001867F7F3C25EE6DD /* Sources */,
+				459590E5D9B659F3C20C78CB5135B52E /* Frameworks */,
+				E8B1FF48CD7B27579A0E86ABC6A24798 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLYShyNavBar;
+			productName = TLYShyNavBar;
+			productReference = EC6E9100061F5DE39DE58E4AB351453B /* TLYShyNavBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		129AD8E6B2AD4E4EFC2BE883F20966BE /* Pods-MeTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B614A861A31B41612C230B608DD200 /* Build configuration list for PBXNativeTarget "Pods-MeTimeUITests" */;
+			buildPhases = (
+				8F5D9A5C4AE9D0F81E7153B2AF4980C1 /* Sources */,
+				B1D47B76337D76255136633EB950DDCB /* Frameworks */,
+				E878352D0172B8B82E0EBBEDB3340ACE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MeTimeUITests";
+			productName = "Pods-MeTimeUITests";
+			productReference = 0C23B45BF89692CFD909296C5EFE1E1C /* Pods_MeTimeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2FB7B1A1A8F6834CC45BE46021BD900D /* Pods-MeTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD52794F5A8F979E6D6CCB5B3A308ED /* Build configuration list for PBXNativeTarget "Pods-MeTimeTests" */;
+			buildPhases = (
+				B007E8EF79BF8ED7AE27BF8E36DA1B52 /* Sources */,
+				D6AFC8706B2D5B644C9FFC04C70D5C90 /* Frameworks */,
+				0F8EB514A92BAEE492EDCFEFA7CEFC20 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MeTimeTests";
+			productName = "Pods-MeTimeTests";
+			productReference = 63E5D4ECB83066E6BCEDD76DA10004B4 /* Pods_MeTimeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41862212B0A81EBCEFB7A01F1A13DE21 /* Pods-MeTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C6C4A86B2EC56A670E16B393838CB2 /* Build configuration list for PBXNativeTarget "Pods-MeTime" */;
+			buildPhases = (
+				5C9BEC4D017768A0CC6F34F40F547684 /* Sources */,
+				632710A7736087AEE0AB26F2B4072B2A /* Frameworks */,
+				2D05C3ACABC6E39BE7ECD62BAA1C98F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259C4B8A53A3DB064BBA1330C9C5C36D /* PBXTargetDependency */,
+				472A10FAF43B4A122D5440679EA98E9A /* PBXTargetDependency */,
+			);
+			name = "Pods-MeTime";
+			productName = "Pods-MeTime";
+			productReference = 263A5F61A6ED4086219850EA06AED541 /* Pods_MeTime.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F1A28763E5B50C1C99D4DADD67FF93B /* SwiftCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E4A8811D813307FAB0CC422CA92275 /* Build configuration list for PBXNativeTarget "SwiftCarousel" */;
+			buildPhases = (
+				50D2243BA33F4F641AD9940E7270A4C9 /* Sources */,
+				645C32354FDE28982598A04CA37B77F7 /* Frameworks */,
+				10E8C0C8FC69EB9E9F5AFEE6357D60E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCarousel;
+			productName = SwiftCarousel;
+			productReference = D6041BCE79E7FEC189D566A88C81861D /* SwiftCarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8C09B3F86F79075AEA321FC220DB5205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41862212B0A81EBCEFB7A01F1A13DE21 /* Pods-MeTime */,
+				2FB7B1A1A8F6834CC45BE46021BD900D /* Pods-MeTimeTests */,
+				129AD8E6B2AD4E4EFC2BE883F20966BE /* Pods-MeTimeUITests */,
+				9F1A28763E5B50C1C99D4DADD67FF93B /* SwiftCarousel */,
+				04E7C3A7972CC736DA98143A02A98026 /* TLYShyNavBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C6EFFB25E443D001867F7F3C25EE6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BCC8DA478F6C524D2C323496A2890EA /* Info.plist in Sources */,
+				26F795B2528E563EA39A453F34160084 /* NSObject+TLYSwizzlingHelpers.m in Sources */,
+				9904179304AD6BC306950616D663385A /* TLYDelegateProxy.m in Sources */,
+				B3CCA89073A73193389F699EC6B95B16 /* TLYShyNavBar-dummy.m in Sources */,
+				15D781F37AE8E9AB1813ECEE4A1DA725 /* TLYShyNavBarManager.m in Sources */,
+				724279423E7BE2380B820799AF682308 /* TLYShyScrollViewController.m in Sources */,
+				B406237B22B6B7CDB797D8BE2C3D1705 /* TLYShyStatusBarController.m in Sources */,
+				3CE9DD11A770FCABC849761F374F176E /* TLYShyViewController.m in Sources */,
+				AC0665C0128680DCE4773EF1B0D7F585 /* UIScrollView+Helpers.m in Sources */,
+				953A8B429FC12D0EDB0378174A21C186 /* UIViewController+BetterLayoutGuides.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D2243BA33F4F641AD9940E7270A4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A13C9CE93D3A1C1CCD30D05E8E4660 /* SwiftCarousel+UIGestureRecognizerDelegate.swift in Sources */,
+				FA9ADD4598DE83E7C6649B3F087F659A /* SwiftCarousel+UIScrollViewDelegate.swift in Sources */,
+				AEFDADEFF0D49106D633B1FA6669144E /* SwiftCarousel-dummy.m in Sources */,
+				1F867C3A1854A49A87B7E735D11AD17C /* SwiftCarousel.swift in Sources */,
+				74317CE5A6DACD04C528CC9B872C4522 /* SwiftCarouselDelegate.swift in Sources */,
+				0BF89B01E9A3CEE86532DC09D9616B3A /* SwiftCarouselError.swift in Sources */,
+				D1708000B4D25D675A8272E1F39CFFE3 /* SwiftCarouselResizeType.swift in Sources */,
+				DE0566129D9FFD19C0A623EC0694074A /* SwiftCarouselScroll.swift in Sources */,
+				F3AF198492E7CDA01B33BEE83AAD70FF /* UIView+SwiftCarousel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9BEC4D017768A0CC6F34F40F547684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04994BB5AFDDF8EC24C4245273251F7C /* Pods-MeTime-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5D9A5C4AE9D0F81E7153B2AF4980C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5486388F889DB182C76C4B92C484EDE0 /* Pods-MeTimeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B007E8EF79BF8ED7AE27BF8E36DA1B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9DE09128FFAE041DBD755382438CFB /* Pods-MeTimeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259C4B8A53A3DB064BBA1330C9C5C36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCarousel;
+			target = 9F1A28763E5B50C1C99D4DADD67FF93B /* SwiftCarousel */;
+			targetProxy = ACE52462B2DCCA3E6C12547BB5A519A7 /* PBXContainerItemProxy */;
+		};
+		472A10FAF43B4A122D5440679EA98E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLYShyNavBar;
+			target = 04E7C3A7972CC736DA98143A02A98026 /* TLYShyNavBar */;
+			targetProxy = 04F1DA17964144F3296703046BB589C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08725B7D77C5C084D84911C87903989A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7450E7543DFD749F5847F5A881B98118 /* Pods-MeTime.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeTime/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeTime/Pods-MeTime.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeTime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1789F5D48353DFBF10073788BB425F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF39346467DB8A7E5F55A6DDB8F34DA /* Pods-MeTimeTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeTimeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeTimeTests/Pods-MeTimeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeTimeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BEEF4D0334D8FB697710805BB16F82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1372D6E98315E3EFDF00D0E04D37D8A5 /* TLYShyNavBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TLYShyNavBar/TLYShyNavBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLYShyNavBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLYShyNavBar/TLYShyNavBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TLYShyNavBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40F5235D18F1AF1C50FA5AE6634EB802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B260E403728B8A27CDFE48A1DDBEC8B /* SwiftCarousel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCarousel/SwiftCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftCarousel/SwiftCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A5C0122682913F2BF817E6D1A652A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E763E4189E14587328DCA9A5F7C8CE /* Pods-MeTimeTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeTimeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeTimeTests/Pods-MeTimeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeTimeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59E7534E8F0D5BE25BFD313EC216A056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1372D6E98315E3EFDF00D0E04D37D8A5 /* TLYShyNavBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TLYShyNavBar/TLYShyNavBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLYShyNavBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLYShyNavBar/TLYShyNavBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TLYShyNavBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A62D871E52809925E9B78CB12869AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DB46BBB08C3EAC44A667BB32856BA3 /* Pods-MeTimeUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeTimeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeTimeUITests/Pods-MeTimeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeTimeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9156EC33B000D30B0C1E363F7CDC27BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8364E3EC1897101E721EFC65E1249C /* Pods-MeTime.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeTime/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeTime/Pods-MeTime.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeTime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A26D5DEEC0C88CEC8AF9DB9C11F3E3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA167063E7820AFACB6E703984A61D28 /* Pods-MeTimeUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeTimeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeTimeUITests/Pods-MeTimeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeTimeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FCCE0C0FA4D9F765ECCE3CDCE82E87A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B260E403728B8A27CDFE48A1DDBEC8B /* SwiftCarousel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCarousel/SwiftCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftCarousel/SwiftCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05E4A8811D813307FAB0CC422CA92275 /* Build configuration list for PBXNativeTarget "SwiftCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F5235D18F1AF1C50FA5AE6634EB802 /* Debug */,
+				FCCE0C0FA4D9F765ECCE3CDCE82E87A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11C6C4A86B2EC56A670E16B393838CB2 /* Build configuration list for PBXNativeTarget "Pods-MeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08725B7D77C5C084D84911C87903989A /* Debug */,
+				9156EC33B000D30B0C1E363F7CDC27BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD52794F5A8F979E6D6CCB5B3A308ED /* Build configuration list for PBXNativeTarget "Pods-MeTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5C0122682913F2BF817E6D1A652A4E /* Debug */,
+				1789F5D48353DFBF10073788BB425F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A81402965ADD0E1C3878182F5ED6066 /* Build configuration list for PBXNativeTarget "TLYShyNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E7534E8F0D5BE25BFD313EC216A056 /* Debug */,
+				1BEEF4D0334D8FB697710805BB16F82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B614A861A31B41612C230B608DD200 /* Build configuration list for PBXNativeTarget "Pods-MeTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D5DEEC0C88CEC8AF9DB9C11F3E3EE /* Debug */,
+				6A62D871E52809925E9B78CB12869AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

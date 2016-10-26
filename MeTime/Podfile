@@ -1,0 +1,27 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MeTime' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  pod 'GoogleMaps'  
+  pod 'TLYShyNavBar'
+  pod "SwiftCarousel"
+use_frameworks!
+
+  # Pods for MeTime
+
+  target 'MeTimeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MeTimeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

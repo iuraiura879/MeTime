@@ -1,0 +1,31 @@
+PODS:
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - GooglePlacePicker (2.0.1):
+    - GoogleMaps (= 2.0.1)
+    - GooglePlaces (= 2.0.1)
+  - GooglePlaces (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - SwiftCarousel (0.7.1)
+  - TLYShyNavBar (1.1.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - SwiftCarousel
+  - TLYShyNavBar
+
+SPEC CHECKSUMS:
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+  GooglePlacePicker: e7b11b732e40dbe76e8ab4c5fc2f4a7c32b96578
+  GooglePlaces: 72fab1d1651c6df0322f2aad245ffb15b80d3c56
+  SwiftCarousel: f4df5aadd20729d7a4535426fc30fa12fab31509
+  TLYShyNavBar: 3150e9a03ff8ab5fd81de00167e8829b91af8326
+
+PODFILE CHECKSUM: d7232b9855efbf1e638802fc055ed39bed1f90a6
+
+COCOAPODS: 1.0.1

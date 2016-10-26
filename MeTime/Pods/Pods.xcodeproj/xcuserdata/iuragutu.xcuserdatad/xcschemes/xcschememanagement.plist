@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-MeTime.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MeTimeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MeTimeUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftCarousel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TLYShyNavBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>04E7C3A7972CC736DA98143A02A98026</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>129AD8E6B2AD4E4EFC2BE883F20966BE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FB7B1A1A8F6834CC45BE46021BD900D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41862212B0A81EBCEFB7A01F1A13DE21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F1A28763E5B50C1C99D4DADD67FF93B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,4 +1,4 @@
-//
+    //
 //  AppDelegate.swift
 //  MeTime
 //
@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import GooglePlaces
+    
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -21,6 +22,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = UIColor(red: 33.0/255.0, green: 150.0/255.0, blue: 243.0/255.0, alpha: 1.0)
         UINavigationBar.appearance().tintColor = UIColor.white
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+        
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        
+        
+        GMSPlacesClient.provideAPIKey("AIzaSyBrR_-i52xM-xFnCZ5NzQq1jWxa-x7SL_Q")
+       
         
         return true
     }
